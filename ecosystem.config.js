@@ -29,7 +29,7 @@ module.exports = {
       host : '39.104.67.13',
       ref  : 'origin/master',
       repo : 'git@github.com:WALLE729/vue-music.git',
-      path : '/root/data/music',
+      path : '/var/www/music',
       'post-deploy' : 'npm install && npm run build'
     },
     dev : {
